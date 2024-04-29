@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.kotlinMultiplatform)
     
     alias(libs.plugins.jetbrainsCompose)
+    kotlin("plugin.serialization") version "latest.release"
 }
 
 kotlin {
